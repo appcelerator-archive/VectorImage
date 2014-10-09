@@ -42,3 +42,4 @@ The image will scale to fit the space provided by the widget but will not change
 
 This widget has a cacheing feature, the rendered SVG is saved as a blob in the app's cache. Unfortunately this is not working at the moment, and there will be a fix coming soon.
 
+The demonstration app uses rotation transforms which are not supported by an Android versions Jelly Bean or older.
