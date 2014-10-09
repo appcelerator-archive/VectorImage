@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"com.capnajax.vectorimage":"1.0"}};

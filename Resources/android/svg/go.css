@@ -1,0 +1,8 @@
+#path {
+	-webkit-transform:rotate(180deg);
+	-webkit-transform-origin:5 5;
+	fill:#090
+}
+circle {
+	stroke:#090
+}
