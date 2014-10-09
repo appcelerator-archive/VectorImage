@@ -1,0 +1,48 @@
+".container": {
+	backgroundColor:"white"
+},
+
+".topLabel": {
+	top: 20,
+	height: 30
+},
+
+".vectorImageContainer": {
+	top: 50,
+	left: 0,
+	right: 0,
+	bottom: 0,
+	layout: "vertical"
+},
+
+"#scrollable": {
+	showPagingControl: true
+}
+
+"#tiger":{
+	top: 20,
+	left: 20,
+	right: 20,
+	bottom: 20,
+	backgroundColor: "white"
+},
+
+"#stylesheets":{},
+
+"#stop":{
+	height: "40%"
+},
+"#caution":{
+	height: "30%"
+},
+"#go":{
+	height: "30%"
+}
+".light":{
+	top: 0,
+	left: 0,
+	right: 0,
+	bottom: 20
+}
+
+".pageView":{}

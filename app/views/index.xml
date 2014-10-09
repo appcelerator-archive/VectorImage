@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<ScrollableView id="scrollable">
+			<View id="stylesheets" class="pageView">
+				<Label text="Style Sheets" class="topLabel"/>
+				<View class="vectorImageContainer">
+					<View id="stop">
+						<Widget class="light" src="com.capnajax.vectorimage" svg="svg/light.svg" style="svg/stop.css"/>
+					</View>
+					<View id="caution">
+						<Widget class="light" src="com.capnajax.vectorimage" svg="svg/light.svg" style="svg/caution.css"/>
+					</View>
+					<View id="go">
+						<Widget class="light" src="com.capnajax.vectorimage" svg="svg/light.svg" style="svg/go.css"/>
+					</View>
+				</View>
+			</View>
+			<View id="tiger" class="pageView">
+				<Label text="Tiger" class="topLabel" />
+				<View class="vectorImageContainer">
+					<Widget src="com.capnajax.vectorimage" svg="svg/awesome_tiger.svg" />
+				</View>
+			</View>
+		</ScrollableView>
+	</Window>
+</Alloy>
