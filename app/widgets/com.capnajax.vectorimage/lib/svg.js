@@ -78,9 +78,9 @@ function SVGImage(svgString, options) {
 		_svgTag = svgString.substring(headerEndIdx, svgTagEnd);
 		_svgContent2 = svgString.substring(svgTagEnd, footerIndex);
 
-		var defsStartIdx = svgString.indexOf("<defs"),
+		var defsStartIdx = _svgContent2.indexOf("<defs"),
 			defsTagEnd = _svgContent2.indexOf(">", defsStartIdx) + 1,
-			defsEndIdx = svgString.indexOf("</defs>", defsStartIdx);
+			defsEndIdx = _svgContent2.indexOf("</defs>", defsStartIdx);
 
 		if(defsStartIdx !== -1 && defsEndIdx === -1) {
 
